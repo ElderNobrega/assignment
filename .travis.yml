@@ -1,0 +1,20 @@
+#GitHub account: Elder Nobrega
+language: node_js
+node_js:
+  - 10.9.0
+
+cache: npm
+
+before_install:
+  - "npm config set spin false"
+  - npm i -g now
+
+install:
+  - npm install
+
+script:
+  - npm run build
+  - npm run test
+
+env:
+  - NOW_TOKEN=gR2V5uT9gAASJMrUm4bMWANx
