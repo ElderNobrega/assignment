@@ -18,3 +18,8 @@ script:
 
 env:
   - NOW_TOKEN=gR2V5uT9gAASJMrUm4bMWANx
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  skip_cleanup: true
