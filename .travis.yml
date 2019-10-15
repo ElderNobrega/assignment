@@ -1,6 +1,4 @@
-#GitHub account: Elder Nobrega
-language: node_js
-node_js:
+t pull#GitHub account: Elder Nobrega language: node_js node_js:
   - 10.9.0
 
 cache: npm
